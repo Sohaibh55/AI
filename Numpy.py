@@ -105,7 +105,7 @@ print(np.log(np10))
 #                   Copy => If you modify the copy, the original array will not be affected, and vice versa.
 np11 = np.array([0,1,2,3,4,5,6,7,8,9,10])
 
-# Create a view 
+# Create a view and copy 
 np12 = np11.view() 
 np13 = np11.copy() 
 print(f'Original NP11 {np11}')
